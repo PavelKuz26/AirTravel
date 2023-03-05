@@ -12,7 +12,7 @@
     margin-right: 0;
 }
 .offers__content{
-    padding: 33px;
+    padding: 29px;
 }
 .offers__title{
     font-weight: 700;
@@ -49,6 +49,7 @@
     margin-bottom: 24px;
 }
 .btn--light{
+    width: 131px;
     background: #fff;
     color: #F5170E;
     border: 1px solid #F5170E;
