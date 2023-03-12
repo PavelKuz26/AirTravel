@@ -16,7 +16,6 @@ body{
     -moz-osx-font-smoothing: grayscale;
     color: #fff;
     margin: 0;
-    background: #001821;
     line-height: 1.42;
 }
 
@@ -40,10 +39,15 @@ a{
 }
 .wrapper{
     min-height: 100%;
+    overflow: hidden;
+    min-width: 1151px;
+    display: flex;
+    flex-direction: column;
 }
 .wrapper__content{
     position: relative;
     height: 100%;
+    flex: 1;
 }
 .wrapper__content--main{
     background: url(../../img/background.jpg);
@@ -78,4 +82,7 @@ a{
 .title--icon::after{
     content: url(../../img/flame.png);
     margin-left: 12px;
+}
+address{
+    font-style: normal;
 }

@@ -1,31 +1,29 @@
 .header{
-    height: 77px;
+    /* margin-top: 32px; */
+    padding-top: 29px;
     margin-bottom: 130px;
-    position: relative;
 }
 .header__container{
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.logo, .navbar, .navbar__item, .contacts{
-    display: inline-block;
+.header__col{
+    display: flex;
+    align-items: center;
 }
-.contacts{
-    position: absolute;
-    right: 0;
-    top: 26px;
+.header__col--align--right{
+    justify-content: flex-end;
 }
 .logo{
-    position: absolute;
-    left: 0;
-    top: 29px;
+    display: block;
+    margin-right: 80px;
 }
-.navbar{
-    position: absolute;
-    top: 40px;
-    left: 163px;
+.navbar__list{
+    display: flex;
 }
 .navbar__item{
-    margin-right: 43px;
+    margin-right: 52px;
     vertical-align: middle;
 }
 .navbar__item:last-child{
