@@ -1,0 +1,77 @@
+.form__row{
+    display: flex;
+    margin-bottom: 26px;
+}
+.form__input{
+    flex: 1;
+    margin-right: 30px;
+    border: transparent;
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px 30px;
+    color: #1A1B1E;
+    font-size: 18px;
+}
+.form__input:focus{
+    outline-color: red; 
+}
+.form__input::placeholder{
+    color: #666;
+}
+.form__input:last-child{
+    margin-right: 0;
+}
+.form__input--textarea{
+    height: 235px;
+    resize: none;
+}
+.controls__item{
+    margin-bottom: 9px;
+    margin-right: 10px;
+}
+.controls__item:last-child{
+    margin-right: 0;
+}
+.controls__elem{
+    cursor: pointer;
+}
+.controls__checkbox:checked ~ .controls__tag{
+    background: #B9EAE4;
+}
+.controls__checkbox{
+    display: none;
+}
+.form__controls{
+    display: flex;
+    margin-bottom: 32px;
+}
+.form__controls--title{
+    width: 36%;
+    font-size: 18px;
+}
+.controls{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form__btns{
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn--color--gray{
+    background: #8E8E8E;
+}
+.btn--color--gray:hover{
+    background: #2B2B2B;
+}
+.btn__form{
+    margin-right: 17px;
+}
+.btn__form:last-child{
+    margin-right: 0;
+}
