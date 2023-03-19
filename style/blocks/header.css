@@ -36,6 +36,9 @@
 .navbar__link:hover{
     color: #DA0100;
 }
+.contacts{
+    text-align: end;
+}
 .contacts__phone{
     font-weight: 400;
     font-size: 26px;

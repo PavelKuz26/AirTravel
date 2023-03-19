@@ -8,7 +8,6 @@
 }
 .inner-section__title{
     font-size: 48px;
-    /* text-transform: capitalize; */
     font-weight: 700;
     margin-bottom: 69px;
 }
@@ -21,9 +20,9 @@
 .partners__link{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     width: 250px;
     height: 115px;
+    transition: .4s;
     filter: grayscale(100%);
 }
 .partners__link:hover{

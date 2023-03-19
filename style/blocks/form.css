@@ -13,7 +13,7 @@
     font-size: 18px;
 }
 .form__input:focus{
-    outline-color: red; 
+    outline-color: #F5170E; 
 }
 .form__input::placeholder{
     color: #666;
@@ -65,6 +65,7 @@ button{
 }
 .btn--color--gray{
     background: #8E8E8E;
+    transition: background .4s;
 }
 .btn--color--gray:hover{
     background: #2B2B2B;

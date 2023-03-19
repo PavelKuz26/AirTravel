@@ -86,3 +86,53 @@ a{
 address{
     font-style: normal;
 }
+.dropdown{
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    /* text-align: end; */
+}
+.dropdown__list{
+    position: absolute;
+    background: #EDEDED;
+    opacity: .8;
+    top: 100%;
+    right: -9999px;
+    color: #000;
+    padding: 15px 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: max-content;
+    opacity: 0;
+    transition: opacity .4s;
+
+}
+.dropdown__list:before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 11px solid transparent;
+    border-top-width: 0px;
+    border-bottom-color: #EDEDED;
+    top: -11px;
+    right: 30%;
+    width: 0;
+    height: 0;
+}
+.dropdown__list:after {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+}
+.dropdown:hover .dropdown__list {
+    right: 0;
+    opacity: 1;
+}
+.dropdown__item:first-child{
+    font-weight: bold;
+}

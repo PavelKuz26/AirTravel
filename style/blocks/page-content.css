@@ -34,6 +34,7 @@
 .services__btn{
     background: #F2F2F2;
     width: 168px;
+    transition: .4s;
 }
 .paginator__item--services:hover{
     color: #fff;
